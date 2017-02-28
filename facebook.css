@@ -1,0 +1,182 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .profile_image_getting_from_fb{
+        width:25%;
+    }
+    .font_change{
+        font-size: 1em;
+    }
+    #img{
+        width: 10em;
+        height: 10em;
+    }
+
+}
+@media only screen and (min-device-width: 482px) and (max-device-width:767px){
+    .profile_image_getting_from_fb{
+        width:25%;
+
+    }
+    .font_change{
+        font-size: 1em;
+    }
+    #img{
+        width: 10em;
+        height: 10em;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .profile_image_getting_from_fb{
+        width:25%;
+    }
+    .font_change{
+        font-size: 1.3em;
+    }
+    #img{
+        width: 10em;
+        height: 10em;
+    }
+}
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1223px) {
+    .profile_image_getting_from_fb{
+        max-width:40%;
+    }
+    .font_change{
+        font-size: 1em;
+    }
+    #img{
+        width: 12em;
+        height: 12em;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+
+    .profile_image_getting_from_fb{
+        max-width:100%
+    }
+    .font_change{
+        font-size: 1.3em;
+    }
+    #img{
+        width: 15em;
+        height: 15em;
+    }
+   .yes {
+       width: 65%;
+       transition-timing-function: linear;
+       margin-left:20%;
+       text-shadow: -5px 5px 5px rgba(0,0,0,0.3);
+       box-shadow: 10px 10px 5px grey;
+       transition: width 2s;
+   }
+    .yes:hover{
+        width:80%;
+    }
+
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+
+    .profile_image_getting_from_fb{
+        max-width:100%
+    }
+    .font_change{
+        font-size: 1em;
+    }
+    #img{
+        width: 15em;
+        height: 15em;
+    }
+    .yes {
+        width: 45%;
+        transition-timing-function: linear;
+        margin-left:30%;
+        text-shadow: -5px 5px 5px rgba(0,0,0,0.3);
+        box-shadow: 10px 10px 5px white;
+        transition: width 2s;
+    }
+    .yes:hover{
+        width:55%;
+    }
+}
+
+
+
+
+
+table{
+    font-size: 1em;
+}
+
+.profile{
+    text-align: center;
+
+}
+.profile_image_getting_from_fb{
+    border: hidden;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.landing_page{
+
+    width:100%;
+    height:600px;
+    background-image:url("./img/landing_page.jpg");
+    background-size:100% 100%;
+
+}
+
+.button_detail{
+    text-align: center;
+    padding-top: 200px;
+}
+.individual_button{
+    padding: 15px 15px 15px 15px;
+
+}
+
+.image_detail{
+    border: hidden;
+    border-radius:50%;
+    width: 15em;
+    height: 15em;
+    text-align: center;
+}
+
+#test{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.gif_styling{
+    text-align: center;
+
+}
+.yes {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+    background: linear-gradient(to right, red , yellow); /* Standard syntax */
+    border:hidden;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    font-family:"Sansita";
+    color:darkblue;
+    padding: 10px 10px 10px 5px;
+}
+
+
+.link_display{
+    text-decoration:none!important;
+
+}
+.padding_style{
+    padding: 10px;
+}
+
